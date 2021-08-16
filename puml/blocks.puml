@@ -1,0 +1,27 @@
+!definelong MethodClient(e_alias, e_label)
+rectangle "e_label" as e_alias #lawngreen
+!enddefinelong
+
+!definelong MethodManager(e_alias, e_label)
+rectangle "e_label" as e_alias #yellow
+!enddefinelong
+
+!definelong MethodEngine(e_alias, e_label)
+rectangle "e_label" as e_alias #orange
+!enddefinelong
+
+!definelong MethodAccessor(e_alias, e_label)
+rectangle "e_label" as e_alias #lightgray
+!enddefinelong
+
+!definelong MethodUtil(e_alias, e_label)
+rectangle "e_label" as e_alias #violet
+!enddefinelong
+
+!definelong MethodResource(e_alias, e_label)
+rectangle "e_label" as e_alias #aqua
+!enddefinelong
+
+!definelong MethodDb(e_alias, e_label)
+database "e_label" as e_alias #aqua
+!enddefinelong

@@ -1,0 +1,22 @@
+!if %not(%variable_exists("$BGCOLOR"))
+!$BGCOLOR = "#FFFFFE"
+!endif
+
+skinparam backgroundColor $BGCOLOR
+skinparam useBetaStyle false
+
+' skinparam roundcorner 20
+
+skinparam title {
+	FontColor	                 #000
+	BorderColor	                 #c2c2c2
+	' FontSize	    	         16
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              #f5f5f5-#f2f2f2
+}
+
+skinparam rectangle {
+	BorderThickness 2
+	BorderColor #gray
+}
